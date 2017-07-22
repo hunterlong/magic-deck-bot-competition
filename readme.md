@@ -1,4 +1,14 @@
 # Magic Bot Competition in GO [![Build Status](https://travis-ci.org/hunterlong/magic-deck-bot-competition.svg?branch=master)](https://travis-ci.org/hunterlong/magic-deck-bot-competition)
+
+# Tasks n To-Do's
+- [x] Fetch all Magic Cards via JSON
+- [x] Create Players (4)
+- [ ] Give Cards to each Player (7)
+- [ ] Count Element cards
+- [ ] Use available card based on element cards
+- [ ] Run Loop for each turn
+
+# Project
 <p>Welcome to the Magic Bot Competition. This project is about making a Magic The Gathering Deck with a bot made by the participant in any programming language. On competition day you will show the code you made the bot in. You will then make a deck with the bot and compete in a magic tournament where you will play the deck your bot made.</p>
 
 <p>The client we will be using: https://untap.in/</p>

@@ -1,4 +1,4 @@
-# Magic Bot Competition
+# Magic Bot Competition in GO
 <p>Welcome to the Magic Bot Competition. This project is about making a Magic The Gathering Deck with a bot made by the participant in any programming language. On competition day you will show the code you made the bot in. You will then make a deck with the bot and compete in a magic tournament where you will play the deck your bot made.</p>
 
 <p>The client we will be using: https://untap.in/</p>

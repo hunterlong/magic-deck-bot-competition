@@ -1,34 +1,51 @@
-package main
+package magic
 
 import (
 	"net/http"
-	"fmt"
 	"io/ioutil"
 	"encoding/json"
+	"math/rand"
 )
 
 
 var AllCards MagicCards
+var AvailableCards MagicCards
 
-func main() {
+type Player struct {
+	Name string
+	Cards *[]MagicCards
+}
+
+func FetchCards() (*MagicCards, error) {
 	response, err := http.Get("https://api.deckbrew.com/mtg/cards")
 	if err != nil {
-		panic(err)
+		return nil, err
 	} else {
 		defer response.Body.Close()
 		contents, err := ioutil.ReadAll(response.Body)
 		if err != nil {
-			panic(err)
+			return nil, err
 		}
 		err = json.Unmarshal(contents, &AllCards)
 		if err != nil {
-			panic(err)
+			return nil, err
 		}
-		fmt.Println("Total Magic Cards: ",len(AllCards))
 	}
+	return &AllCards, nil
 
-	for _, v := range AllCards {
-		fmt.Println(v.Name)
+}
+
+
+func (p *Player) GiveCards() {
+
+	//var cardArray []MagicCards
+
+	for i:=0; i<7; i++ {
+		//
+		//random := AllCards[rand.Intn(len(AllCards))]
+		//
+		//cardArray = append(cardArray, random)
+
 	}
 }
 

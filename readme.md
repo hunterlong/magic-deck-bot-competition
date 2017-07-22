@@ -6,14 +6,14 @@
 
 <h3>Rules:</h3>
 <p>(Feel free to do a pull if you feel we are missing something)</p>
-<ul>
-<li>1. Bot must be Semi-Random (No pulling in deck lists or using if(card is === to a certain card)</li>
-<li>2. Cards must be in the Magic The Gathering database and it must be in vintage series or above.</li>
-<li>3. Bot can take a color or color combo but still must be random.</li>
-<li>4. Bot must be ran in front of other participants and you must be able to explain each part of the bot</li>
-</ul>
+<ol>
+<li>Bot must be Semi-Random (No pulling in deck lists or using if(card is === to a certain card)</li>
+<li>Cards must be in the Magic The Gathering database and it must be in vintage series or above.</li>
+<li>Bot can take a color or color combo but still must be random.</li>
+<li>Bot must be ran in front of other participants and you must be able to explain each part of the bot</li>
+</ol>
 
 <h3>Participants</h3>
 <p>Fork and pull in your profile</p>
 <p><name> <github username> <bot code repo></p>
-<p>Jacob Evans @jacobtheevans https://github.com/JacobTheEvans/magic-deck-bot</p> 
+<p>Jacob Evans @jacobtheevans https://github.com/JacobTheEvans/magic-deck-bot</p>

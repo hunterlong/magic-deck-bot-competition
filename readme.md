@@ -15,5 +15,5 @@
 
 <h3>Participants</h3>
 <p>Fork and pull in your profile</p>
-<p><name> <github username> <bot code repo></p>
+<p>&lt;name&gt; &lt;github username&gt; &lt;bot code repo&gt;</p>
 <p>Jacob Evans @jacobtheevans https://github.com/JacobTheEvans/magic-deck-bot</p>

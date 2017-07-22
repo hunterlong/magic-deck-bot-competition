@@ -9,7 +9,7 @@
 <ol>
 <li>Bot must be Semi-Random (No pulling in deck lists or using if(card is === to a certain card)</li>
 <li>Cards must be in the Magic The Gathering database and it must be in vintage series or above.</li>
-<li>Bot can take a color or color combo but still must be random.</li>
+<li>Bot can take a color or color combo but the deck still must be random.</li>
 <li>Bot must be ran in front of other participants and you must be able to explain each part of the bot</li>
 </ol>
 
